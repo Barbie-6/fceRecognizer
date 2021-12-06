@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Image Recognition Webapp
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <center>
+     <div class="header_div">
+        <h2>Image Recognition App</h2>
+        <h4>(Family Edition)</h4>
+    <hr>
+</div>
+    <p>Model is trained to identitfy following persons:- </p>
+    <br>
+    <div id="d1">
+        Mother
+    </div>
+    <div id="d2">
+        Father
+    </div>
+    <div id="d3">
+        Sister
+    </div>
+    <div id="d4">
+        Brother
+    </div>
+    <br>
+    <br>
+    <label>Webcam View - </label>
+      <div id="camera"></div>
+      <div id="result"></div>
+      <br><br>
+      <button onclick="take_snapshot();" class="btn btn-danger">Capture Image</button>
+      <br><br>
+       <button onclick="check();" class="btn btn-success">Identify Image</button>
+      <br><br>
+    <p style="font-size: 22px;">Member : <span id="result_member_name"></span> </p>
+    <p style="font-size: 22px;">Accuracy : <span id="result_member_accuracy"></span> </p>
+</center>
+
+<script src="main.js"></script>
+    </body>
+</html>

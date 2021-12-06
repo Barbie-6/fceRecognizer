@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: lavender;
+}
+.header_div {
+    background-color: lightskyblue;
+    color: black;
+    margin-top: -18px;
+    padding-top: 20px;
+}
+.header_div h4{
+    letter-spacing: 2px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 22px;
+}
+#d1, #d2, #d3, #d4 {
+    height: 50px;
+    width: 500px;
+    background-color: pink;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    border: 2px ridge violet;
+    box-shadow: 5px 5px 9px rgb(144, 248, 141);
+}
+#camera {
+    border: 2px dotted violet;
+    width: 350px;
+    height: 300px;
+    box-shadow: 10px 10px 18px rgb(144, 248, 141);
+    border-radius: 10px;
+}
